@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: enterprise-risk-backend
+    env: node
+    repo: https://github.com/your-username/enterprise-risk-tracker
+    branch: main
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: MONGODB_URI
+        value: <your-mongodb-uri>
