@@ -10,7 +10,7 @@ function App() {
   const [risks, setRisks] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/risks').then(res => setRisks(res.data));
+    axios.get('http://risk-backend.onrender.com/risks').then(res => setRisks(res.data));
   }, []);
 
   const addRisk = (risk) => {
