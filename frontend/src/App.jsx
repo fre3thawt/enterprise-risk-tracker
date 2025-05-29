@@ -14,14 +14,14 @@ function App() {
   }, []);
 
   const addRisk = (risk) => {
-    axios.post('http://localhost:5000/risks', risk).then(res => {
+    axios.post('http://risk-backend.onrender.com/risks', risk).then(res => {
       setRisks([...risks, res.data]);
       logAuditTrail('CREATE', res.data);
     });
   };
 
   const logAuditTrail = (action, risk) => {
-    axios.post('http://localhost:5000/audit-trail', {
+    axios.post('http://risk-backend.onrender.com/audit-trail', {
       action,
       riskId: risk._id,
       timestamp: new Date(),
