@@ -16,11 +16,11 @@ This is a full-stack web application for tracking enterprise risks. It includes:
 
 ### One-Click to Render (backend)
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/your-username/enterprise-risk-tracker)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/fre3thawt/enterprise-risk-tracker)
 
 ### One-Click to Vercel (frontend)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/your-username/enterprise-risk-tracker/tree/main/frontend)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/fre3thawt/enterprise-risk-tracker/tree/main/frontend)
 
 Update `App.jsx` to point to your deployed backend URL.
 
