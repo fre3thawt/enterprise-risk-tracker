@@ -2,7 +2,7 @@ services:
   - type: web
     name: enterprise-risk-backend
     env: node
-    repo: https://github.com/your-username/enterprise-risk-tracker
+    repo: https://github.com/fre3thawt/enterprise-risk-tracker
     branch: main
     rootDir: backend
     buildCommand: npm install
